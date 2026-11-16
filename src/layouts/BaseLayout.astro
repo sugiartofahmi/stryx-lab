@@ -1,0 +1,33 @@
+---
+import "../styles/global.css";
+import Footer from "../components/common/Footer.astro";
+
+interface Props {
+	title?: string;
+	description?: string;
+}
+
+const {
+	title = "stryx lab - multipurpose scraping",
+	description = "Autonomous, resilient scraping systems engineered for modern web and mobile targets.",
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en" class="dark scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+		<meta name="description" content={description} />
+		<meta name="theme-color" content="#09080e" />
+	</head>
+	<body class="min-h-screen bg-[#09080e] text-[#f4f4f5] antialiased selection:bg-purple-900 selection:text-white">
+		<main>
+			<slot />
+		</main>
+		<Footer />
+	</body>
+</html>
