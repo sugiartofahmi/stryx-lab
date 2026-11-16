@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "stryx-lab",
+  "compatibility_date": "2026-06-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    { "pattern": "stryxlab.dev", "custom_domain": true },
+    { "pattern": "www.stryxlab.dev", "custom_domain": true }
+  ]
+}
