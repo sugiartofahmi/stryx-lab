@@ -10,6 +10,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "ship": "astro build && wrangler deploy",
+    "cf:deploy": "astro build && wrangler deploy",
     "deploy": "astro build && wrangler deploy",
     "cf:login": "wrangler login",
     "cf:whoami": "wrangler whoami",
