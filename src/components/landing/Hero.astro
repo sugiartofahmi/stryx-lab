@@ -3,7 +3,7 @@ import { ScraperMeshVisual } from "./ScraperMeshVisual";
 import { StryxLogo } from "../common/StryxLogo";
 ---
 
-<section class="relative h-screen min-h-[680px] w-full flex flex-col justify-between overflow-hidden px-8 sm:px-14 md:px-24 lg:px-40 xl:px-56 2xl:px-72 py-8 lg:py-10">
+<section class="relative w-full flex-1 flex flex-col justify-between overflow-hidden px-6 sm:px-14 md:px-24 lg:px-40 xl:px-56 2xl:px-72 pt-6 pb-4 sm:py-8 lg:py-10">
 	<div class="pointer-events-none absolute inset-0 -z-10 bg-[#09080e]"></div>
 
 	<div class="absolute inset-0 w-full h-full pointer-events-none z-0">
@@ -11,17 +11,17 @@ import { StryxLogo } from "../common/StryxLogo";
 	</div>
 
 	<div class="w-full z-10">
-		<div class="flex items-center gap-2.5 font-mono text-[11px] uppercase tracking-[0.24em] text-zinc-400">
-			<StryxLogo className="size-5 text-white" />
-			<span class="font-bold text-white tracking-[0.28em]">STRYX LAB</span>
+		<div class="flex flex-wrap items-center gap-2 sm:gap-2.5 font-mono text-[10px] sm:text-[11px] uppercase tracking-[0.18em] sm:tracking-[0.24em] text-zinc-400">
+			<StryxLogo className="size-4 sm:size-5 text-white" />
+			<span class="font-bold text-white tracking-[0.22em] sm:tracking-[0.28em]">STRYX LAB</span>
 			<span class="text-zinc-600">·</span>
-			<span>MULTIPURPOSE SCRAPING</span>
+			<span class="truncate">MULTIPURPOSE SCRAPING</span>
 		</div>
 	</div>
 
-	<div class="w-full my-auto z-10">
+	<div class="w-full my-auto z-10 py-4 sm:py-0">
 		<div class="max-w-[680px]">
-			<div class="mb-6 flex items-center gap-3 font-mono text-xs sm:text-[13px] uppercase tracking-[0.22em] text-zinc-400">
+			<div class="mb-4 sm:mb-6 flex flex-wrap items-center gap-2 sm:gap-3 font-mono text-[10px] sm:text-xs md:text-[13px] uppercase tracking-[0.16em] sm:tracking-[0.22em] text-zinc-400">
 				<span>INSPECT</span>
 				<span class="text-zinc-700">·</span>
 				<span>REVERSE</span>
@@ -31,18 +31,18 @@ import { StryxLogo } from "../common/StryxLogo";
 				<span>ENDURE</span>
 			</div>
 
-			<h1 class="font-sans text-4xl font-normal tracking-tight text-white sm:text-5xl lg:text-[72px] leading-[1.05]">
+			<h1 class="font-sans text-3xl sm:text-5xl lg:text-[72px] font-normal tracking-tight text-white leading-[1.08] sm:leading-[1.05]">
 				Building scraping engines.
 			</h1>
 
-			<p class="mt-6 max-w-[560px] text-base sm:text-lg lg:text-[19px] leading-relaxed text-zinc-300">
+			<p class="mt-4 sm:mt-6 max-w-[560px] text-sm sm:text-lg lg:text-[19px] leading-relaxed text-zinc-300">
 				An engineering lab focused on extracting data from complex and guarded platforms through experimental and dedicated scrapers.
 			</p>
 
-			<div class="mt-9 flex items-center gap-3.5">
+			<div class="mt-6 sm:mt-9 flex items-center gap-3.5">
 				<a
 					href="#engine"
-					class="inline-flex items-center rounded-full bg-[#a855f7] px-7 py-3.5 font-sans text-sm font-semibold text-white shadow-[0_0_32px_rgba(168,85,247,0.45)] hover:bg-[#9333ea] transition-all"
+					class="inline-flex items-center rounded-full bg-[#a855f7] px-6 py-3 sm:px-7 sm:py-3.5 font-sans text-xs sm:text-sm font-semibold text-white shadow-[0_0_32px_rgba(168,85,247,0.45)] hover:bg-[#9333ea] transition-all"
 				>
 					Explore engines
 				</a>

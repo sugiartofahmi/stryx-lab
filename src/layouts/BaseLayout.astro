@@ -24,8 +24,8 @@ const {
 		<meta name="description" content={description} />
 		<meta name="theme-color" content="#09080e" />
 	</head>
-	<body class="min-h-screen bg-[#09080e] text-[#f4f4f5] antialiased selection:bg-purple-900 selection:text-white">
-		<main>
+	<body class="min-h-screen min-h-[100dvh] flex flex-col justify-between bg-[#09080e] text-[#f4f4f5] antialiased selection:bg-purple-900 selection:text-white overflow-x-hidden">
+		<main class="w-full flex-1 flex flex-col">
 			<slot />
 		</main>
 		<Footer />
